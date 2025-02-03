@@ -27,7 +27,6 @@ pragma experimental ABIEncoderV2;
 import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "./Token.sol";
-
 contract Forwarder is OwnableUpgradeable {
     struct ForwardRequest {
         address from;
@@ -35,20 +34,20 @@ contract Forwarder is OwnableUpgradeable {
         uint256 value;
         uint256 gas;
         uint256 nonce;
-        bytes data;
+        bytes data;    // this can be very large to process, can cause DoS like OZ finding of 0x52
     }
 
     using ECDSA for bytes32;
     string public constant GENERIC_PARAMS =
-        "address from,address to,uint256 value,uint256 gas,uint256 nonce,bytes data";
+        "address from,address to,uint256 value,uint256 gas,uint256 nonce,bytes data";   //written in immutable storage
 
-    mapping(bytes32 => bool) public typeHashes;
+    mapping(bytes32 => bool) public typeHashes;        // bytes -> bool
 
     // Nonces of senders, used to prevent replay attacks
-    mapping(address => uint256) private nonces;
+    mapping(address => uint256) private nonces;     // nonce to avoid replay attacks for same nonce value
 
-    EURFToken private _eurf;
-    address private _eurfAddress;
+    EURFToken private _eurf;  // contract name of Token.sol
+    address private _eurfAddress;     //contract address of EURF token
 
     event RequestTypeRegistered(bytes32 indexed typeHash, string typeStr);
 
@@ -62,9 +61,9 @@ contract Forwarder is OwnableUpgradeable {
     function getEURF() public view returns (address) {
         return _eurfAddress;
     }
-
+//q. does this contract needs constructor disableInitializers()??
     function initialize(address ngeurToken) public initializer {
-        __Ownable_init(_msgSender());
+        __Ownable_init(_msgSender());   //caller of this fn will be OWner of this contract
 
         require(ngeurToken != address(0), "NGEUR Forwarder: NGEUR Token address can't be address 0");
 

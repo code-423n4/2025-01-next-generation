@@ -32,6 +32,8 @@ import {ERC20AdminUpgradeable} from "./ERC20AdminUpgradeable.sol";
 import {ERC20ControlerMinterUpgradeable} from "./ERC20ControlerMinterUpgradeable.sol";
 import {FeesHandlerUpgradeable} from "./FeesHandlerUpgradeable.sol";
 
+// //q. do we have a proxy contract that will be used to invoke upgradeable contractS?
+
 contract EURFToken is
     ERC20MetaTxUpgradeable,
     ERC20AdminUpgradeable,
@@ -49,6 +51,10 @@ contract EURFToken is
 
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() initializer {}
+//qa- below is the recommended way now:
+// constructor() {
+//     _disableInitializers();
+// }
 
     function initialize() public initializer {
         __UUPSUpgradeable_init();
@@ -159,7 +165,7 @@ contract EURFToken is
     }
 
     function transfer(address recipient, uint256 amount) public override returns (bool) {
-        transferSanity(_msgSender(), recipient, amount);
+        transferSanity(_msgSender(), recipient, amount);  //pays the tx fee from msg.sender to feesFaucet address
         return super.transfer(recipient, amount);
     }
 

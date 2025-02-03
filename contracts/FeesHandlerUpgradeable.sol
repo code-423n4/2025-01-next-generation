@@ -47,9 +47,12 @@ abstract contract FeesHandlerUpgradeable is Initializable {
 
     /**
      * @dev Function to calculate fees
-     * @param txAmount amount of the transaction in NGEUR
+     * @param txAmount amount of the transaction in NGEUR - NextGenerationEUR token
      */
     function calculateTxFee(uint256 txAmount) public view returns (uint256) {
+//_txFeeRate can't exceed 10_000
+//amt = 1000e6, txFeeRate = 5%
+//1e9*5e2/1e4 = 5e7 => 50 EUR will be txfee on 1000EUR transfer
         return (txAmount * _txfeeRate) / FEE_RATIO;
     }
 

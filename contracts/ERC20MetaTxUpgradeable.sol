@@ -27,7 +27,7 @@ abstract contract ERC20MetaTxUpgradeable is ERC20Upgradeable, EIP712Upgradeable 
      */
 
     function __ERC20MetaTx_init(string memory name) internal onlyInitializing {
-        __Context_init_unchained();
+        __Context_init_unchained(); //this contract is not inherited here, but is inherited by Token.sol, whose intiialize() calls this init()
         __EIP712_init_unchained(name, "1");
         __ERC20MetaTx_init_unchained();
     }
@@ -45,6 +45,9 @@ abstract contract ERC20MetaTxUpgradeable is ERC20Upgradeable, EIP712Upgradeable 
     /**
      * @dev permit function approves if valid signed permit is provided.
      */
+//issue- include logic in try-catch to avoid temp DoS
+// https://solodit.cyfrin.io/issues/m-02-abuse-of-permit-functionality-to-block-legitimate-transactions-pashov-audit-group-none-sushiswap-markdown
+//callable by anyone, doesn't verify the msg.sender is owner and all that
     function permit(
         address owner,
         address spender,
@@ -56,6 +59,7 @@ abstract contract ERC20MetaTxUpgradeable is ERC20Upgradeable, EIP712Upgradeable 
     ) public virtual {
         if (block.timestamp > deadline) revert DeadLineExpired(deadline);
 
+// get currrent nonce value of owner and incr the nonce value
         bytes32 structHash = keccak256(abi.encode(_PERMIT_TYPEHASH, owner, spender, value, _useNonce(owner), deadline));
 
         bytes32 hash = _hashTypedDataV4(structHash);
