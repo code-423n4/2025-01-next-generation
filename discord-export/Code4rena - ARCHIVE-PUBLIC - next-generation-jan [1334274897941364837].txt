@@ -1,0 +1,1309 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-PUBLIC / next-generation-jan
+==============================================================
+
+[01/30/2025 12:38] thebrittfactor (pinned)
+👋 Hello and welcome to the $22,000 in USDC Next Generation audit channel!
+
+📆 Audit opens Friday, 31 January 2025 (20:00 UTC) and runs through Friday, 07 February 2025 (20:00 UTC) (7 days).
+
+Please give a warm welcome to the Next Generation team, particularly @guardian@ngpes and @Jorick, who will be available for questions either here in the channel or via a PRIVATE thread in the Central European (CET/GMT+1) timezone. 
+
+🤖 **Documentation bot assistance:** For general questions about the codebase, give our documentation bot a try, by tagging `@Docs Wolf` in any thread (private or public) and asking your question. The bot will make its best attempt to answer based on the codebase and documentation, and link you to relevant resources.  
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/audits/2025-01-next-generation
+
+{Reactions}
+🔥 
+
+[01/30/2025 12:42] thebrittfactor
+Pinned a message.
+
+
+[01/30/2025 17:29] 0xrochimaru
+https://tenor.com/view/guerra-war-ready-to-fight-gear-up-arnold-schwarzenegger-gif-13809686
+
+{Embed}
+https://tenor.com/view/guerra-war-ready-to-fight-gear-up-arnold-schwarzenegger-gif-13809686
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/guerra-war-F7B2C.png
+
+{Reactions}
+👍 
+
+[02/01/2025 18:40] lhoussaineph2001
+@Docs Wolf is there any previous upgrage to the EURFToken
+
+
+[02/01/2025 18:41] lhoussaineph2001
+@Docs Wolf *Upgrade
+
+
+[02/01/2025 18:43] _leogold
+Started a thread.
+
+
+[02/01/2025 18:45] _leogold
+your answer is in a thread as the bot needs to be called in a thread be it public or private.
+
+{Reactions}
+👍 
+
+[02/01/2025 18:54] lhoussaineph2001
+what is the address of the EURToken please ?
+
+
+[02/02/2025 07:58] jorick3096
+@Lhoussaineph2001 hello. Contract  has never been published on the mainnet. Hence never upgraded. Our goal is to insure the robustness of our code before going live.
+
+{Reactions}
+👍 (6) 
+
+[02/02/2025 10:51] saurabh_0312
+is this code base previously audited
+
+
+[02/02/2025 11:00] kyosi2963
+no
+
+
+[02/02/2025 17:50] harryjohn5093421
+How can I run this nextgen?
+I have cloned project and run npx hardhat run.
+
+
+[02/02/2025 17:51] harryjohn5093421
+Please let me know how to set .env file
+
+
+[02/02/2025 18:40] tusharr1411
+rename the `example.env` to `.env` and set PRIVATE_KEY=your_pvt_key
+
+
+[02/02/2025 18:41] tusharr1411
+you can use any dummy private key for local testing
+
+
+[02/02/2025 19:41] elser17
+Hi, I receive this error whenever I try to compile: TypeError: Cannot read properties of undefined (reading 'add')
+    at Object.extendEnvironment (C:\Users\sergi\node_modules\hardhat\src\internal\core\config\config-env.ts:130:19)
+    at Object.<anonymous> (C:\Users\sergi\node_modules\@nomiclabs\hardhat-ethers\src\index.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (C:\Users\sergi\node_modules\@nomicfoundation\hardhat-chai-matchers\src\index.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+
+
+[02/02/2025 19:42] elser17
+What is the issue with this 'Cannot read properties of undefined (reading 'add')
+    at Object.extendEnvironment '?
+
+
+[02/02/2025 21:51] rexy.eth.
+How to ask sponsors questions privately ?
+
+
+[02/02/2025 21:52] rexy.eth.
+@thebrittfactor | C4
+
+
+[02/02/2025 21:52] rexy.eth.
+A go ahead by making private threads?
+
+{Reactions}
+👍 
+
+[02/02/2025 22:05] alekso1
+yes
+
+{Reactions}
+🤝 
+
+[02/02/2025 22:49] elser17
+Hi, I receive this error whenever I try to compile: TypeError: Cannot read properties of undefined (reading 'add')
+    at Object.extendEnvironment (C:\Users\sergi\node_modules\hardhat\src\internal\core\config\config-env.ts:130:19)
+
+
+[02/02/2025 22:49] elser17
+Can anybody help with this plz?
+
+
+[02/03/2025 07:51] jorick3096
+Hello @eLSeR17 What is the current version of node that your using ? Also can you ```npm show``` your hardhat-ethers dependency ?
+
+
+[02/03/2025 09:41] kartikgiri121
+@Jorick @guardian@ngpes Can you guys please check my private thread.
+
+{Reactions}
+👍 
+
+[02/03/2025 13:25] rexy.eth.
+@Jorick pinged you in private thread ser, anticipating your reply
+
+
+[02/03/2025 13:37] rexy.eth.
+@guardian@ngpes pinged you too in a private thread, pls I need your replies
+
+
+[02/03/2025 19:04] elser17
+v18.20.5 node version
+
+
+[02/03/2025 19:05] elser17
+which one should I use?
+
+
+[02/03/2025 19:46] unpluggedtj
+Went through codebase, solid job devs 🫡
+
+{Reactions}
+✅ (7) 🎉 (2) ohno (2) 
+
+[02/04/2025 00:42] elser17
+any of the contracts should strictly comply with any EIP?
+
+
+[02/04/2025 10:06] rexy.eth.
+Yeah, I think EIP 712. It has similar implementation 🤔
+
+
+[02/04/2025 16:19] 0xiehnnkta
+Error HH8: There's one or more errors in your config file:
+
+  * Invalid account: #0 for network: sepolia - Expected string, received undefined
+  * Invalid account: #0 for network: amoy - Expected string, received undefined
+
+To learn more about Hardhat's configuration, please go to https://hardhat.org/config/
+
+For more info go to https://hardhat.org/HH8 or run Hardhat with --show-stack-traces
+
+what is the issue here, can anyone explain
+
+{Embed}
+https://hardhat.org/config/
+Configuration | Ethereum development environment for professionals ...
+Ethereum development environment for professionals by Nomic Foundation
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/card-676D2.jpg
+
+{Embed}
+https://hardhat.org/HH8
+Hardhat errors | Ethereum development environment for professionals...
+Ethereum development environment for professionals by Nomic Foundation
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/card-676D2.jpg
+
+
+[02/04/2025 16:30] kyosi2963
+You need to set the PRIVATE_KEY in the .env
+
+
+[02/04/2025 16:30] saaitaamaa
+hey, The functions grantrole && revokerole, where do they come from ? OppenZeppellin ?????
+
+
+[02/04/2025 16:47] george786.
+Access Control library
+
+
+[02/04/2025 17:02] saaitaamaa
+thanks
+
+
+[02/04/2025 19:03] pindarew
+Hello guys, as this is my first contest on C4, I can use Foundry, right?
+
+{Reactions}
+✅ (2) 
+
+[02/04/2025 21:04] rexy.eth.
+Yes
+
+
+[02/05/2025 08:26] devpelz
+@gaxnik delete your thread. It’s not private🤦🏽‍♂️
+
+
+[02/05/2025 08:30] gaxnik1
+thank you
+
+{Reactions}
+👍🏿 
+
+[02/05/2025 20:33] tadev0
+Hi! any example of how `registerRequestType` would be used? What kind of new request type could be registered?
+
+
+[02/05/2025 23:09] mjx1465
+I know it says "./contracts/.." in scope.txt, but I have to ask - there are no script or config files in audit scope, right?
+
+
+[02/06/2025 06:46] rexy.eth.
+I think it's internal, and called only at initialization.  So it's basically admin controlled.
+
+
+[02/06/2025 06:52] t0r4n4d0
+How can we add images in reports?
+
+
+[02/06/2025 10:12] _arnavjindal
+delete the sepolia and amoy from the config.js file
+
+
+[02/06/2025 10:20] tadev0
+There is an internal called at initialization and an external allowing to add more request types
+But never mind not a big deal
+
+
+[02/06/2025 10:22] rexy.eth.
+I see
+
+
+[02/06/2025 13:55] kyosi2963
+@Jorick @guardian@ngpes Can u guys please check my PT, please 🙏
+
+
+[02/06/2025 14:35] bizzzy9413
+@Jorick @guardian@ngpes please check my PT as well
+
+
+[02/07/2025 09:39] kyosi2963
+@Jorick @guardian@ngpes Could u guys please check my PT again since there is not a lot of time until the contest ends 🙏
+
+
+[02/07/2025 12:26] insurgence_
+fairly new to web3 security, what does PT mean ?
+
+
+[02/07/2025 12:27] devanas17
+private thread
+
+{Reactions}
+👍 
+
+[02/07/2025 14:28] pindarew
+Hello when submitting a finding how to point to affected part of code by github, I mean I am pasting the permalink but seems that it doesn't like it. I get `Please include at least one line number at the end of your URL`.  Why is that?
+
+
+[02/07/2025 14:30] pindarew
+ahh okay, I understand, I am fine, thanks
+
+{Reactions}
+👍 (2) 
+
+[02/07/2025 16:32] devanas17
+bro this one is so hard, I have not find anything.
+
+
+[02/07/2025 16:39] sakibcy
+Solid codebase 🔥
+
+{Reactions}
+🎉 
+
+[02/07/2025 16:42] devanas17
+yeah bro, but I am sure findings will be more than 600,
+
+
+[02/07/2025 16:44] kyosi2963
+Hopefully they will be reduced with new rules
+
+
+[02/07/2025 16:44] sakibcy
+Most of them will not valid.
+As in a lots of line, I thought that I found something, but After verifying it -> damn solid!
+
+{Reactions}
+👍 (2) 😂 (3) 
+
+[02/07/2025 16:44] kyosi2963
+Same 😄
+
+
+[02/07/2025 16:45] devanas17
+yeah bro, you are right but I have seen this multiple time.
+
+
+[02/07/2025 16:46] devanas17
+all of sudden huge no. findings comes out
+
+
+[02/07/2025 16:46] kyosi2963
+Don't give up there are still few hours left 😄
+
+{Reactions}
+👍 (2) 
+
+[02/07/2025 16:46] sakibcy
+At first when I started auditing it, 
+I was happy and thought gonna find may be 10 bugs 😂
+But after understanding the whole codebase I am dead 🙄
+
+
+[02/07/2025 16:47] kyosi2963
+Yeah yeah, same feeling 😄
+
+{Reactions}
+😂 (2) 
+
+[02/07/2025 16:48] devanas17
+let's give a one more last session
+
+
+[02/07/2025 17:49] santipu_
+what are these new rules?
+
+
+[02/07/2025 17:50] kyosi2963
+10 max issues per contest
+
+
+[02/07/2025 17:54] santipu_
+And what happens if you submit more than 10?
+
+
+[02/07/2025 17:55] kyosi2963
+U just cant 😂
+
+
+[02/07/2025 17:55] kyosi2963
+There is a limit
+
+
+[02/07/2025 17:55] santipu_
+it's the same limit for everyone?
+
+{Reactions}
+👍 
+
+[02/07/2025 17:57] 0xrochimaru
+Is it actually?
+
+
+[02/07/2025 17:57] 0xrochimaru
+Never heard of it before
+
+
+[02/07/2025 17:57] 0xrochimaru
+Maybe cause I never managed to find more than 10 issues 🥲
+
+
+[02/07/2025 18:13] mmoyse777
+How long after end of submission phase will we be able to see how many submissions there are
+
+
+[02/07/2025 18:19] sakibcy
+Only SR roles can see it
+
+
+[02/07/2025 18:21] sakibcy
+After the contest end, 
+we have to request SRs to tell how many total submissions.
+
+{Reactions}
+👍 (2) 
+
+[02/07/2025 19:59] packaging03
+Thank you, everyone... this is the end!.
+
+
+[02/07/2025 20:00] 0xrochimaru
+https://tenor.com/view/hackerman-gif-22344136
+
+{Embed}
+https://tenor.com/view/hackerman-gif-22344136
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/hackerman-5266E.png
+
+
+[02/07/2025 20:00] 0xrochimaru
+Me after submitting 6 invalids
+
+{Reactions}
+🤣 (8) 👍 (2) 
+
+[02/07/2025 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺Wardens The **Next Generation** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks.
+
+
+[02/07/2025 20:02] 0x_shahil_hussain
+so anyone found anything?
+
+
+[02/07/2025 20:02] rokinot
+good contest, I could notice by some pieces of code that the dev is used to patterns found in languages other than solidity
+
+
+[02/07/2025 20:05] pfapostol
+Literally 999 submissions
+
+{Reactions}
+🫡 (2) 💀 
+
+[02/07/2025 20:08] devanas17
+Really bro
+
+
+[02/07/2025 20:08] devanas17
+Insane
+
+
+[02/07/2025 21:09] george786.
+it's a c4 thing, you can move to other platforms btw.
+
+This rule was needed because of the no. of spammers
+
+
+[02/07/2025 21:27] deeney3866
+Next couple of weeks or months👀
+
+{Reactions}
+Metapod 
+
+[02/07/2025 22:47] magiccentaur
+Do y know how many unique users with at least 1 sub ?
+
+
+[02/07/2025 23:57] rexy.eth.
+If this really, unbelievable 😂
+
+
+[02/08/2025 07:06] 0x04bytes
+I am curious about the average valid submissions rate per audit. Is the data available?
+
+
+[02/08/2025 07:29] pfapostol
+I would say 23% on average for HM. But this is not official data, I just parsed it from github before C4 started using the web dashboard.
+
+{Reactions}
+👑 (2) 
+
+[02/08/2025 09:25] santipu_
+I was just surprised because I was able to send more than 10
+
+
+[02/08/2025 12:22] rexy.eth.
+Submitted more than 10 issues?
+
+{Reactions}
+👍 
+
+[02/08/2025 13:32] 4b69
+I think if you have high issue validity ratio ....you can submit more than that
+
+
+[02/08/2025 14:58] 0xsorrynotsorry
+it's related to this: https://discord.com/channels/810916927919620096/810929015509483554/1336997538821308478
+
+
+[02/08/2025 16:39] marioyordanov
+where all submissions can be found?
+
+
+[02/10/2025 14:23] kyosi2963
+U need backstage role to see them 😄
+
+
+[02/10/2025 14:48] 0x23r0
+how many submissions in this contest?
+
+
+[02/10/2025 16:29] kyosi2963
+999
+
+
+[02/10/2025 16:30] kyosi2963
+as far as i know, i don't have backstage as well
+
+
+[02/11/2025 21:11] george786.
+Any guess by when it will be over?
+
+
+[02/11/2025 21:12] kyosi2963
+at least 2 weeks more
+
+
+[02/11/2025 21:37] deeney3866
+We just concluded the contest🤔
+
+
+[02/17/2025 18:27] devanas17
+What's the progress so far?
+
+
+[02/18/2025 08:12] onlycharttrade_46838
+how much take time "Bug" Confirmtion
+
+
+[02/18/2025 15:30] kyosi2963
+Still in 'Sponsor Review', it won't be done soon (my guess is 3-4 weeks more at least)
+
+{Reactions}
+👍 (3) 
+
+[02/18/2025 17:14] mptgits_15062
+2 months for ~500 loc? 😵
+
+
+[02/18/2025 17:15] kyosi2963
+There are 1000 submissions 😄
+
+{Reactions}
+💀 (3) 😂 
+
+[02/18/2025 17:35] walodja1987
+Looks like AI is not only accelerating things but also slowing things down. Very interesting to observe 😊
+
+{Reactions}
+👍 
+
+[02/18/2025 18:03] insurgence_
+where can you see the number of submissions ?
+
+
+[02/19/2025 06:16] lhoussaineph2001
+You have to get the SR special Role in C4
+
+
+[02/20/2025 09:31] kyosi2963
+Why this contest is not progressing, it ended in the same day as IQ-AI , they are already on QA reports judging phase 😄
+
+
+[02/20/2025 14:40] george786.
+Yep. Why?
+
+
+[02/20/2025 20:26] jjs0660
+gn gn This is my first contest on this platform, so sorry for potentially silly question. 
+
+At what stage do we all get to see results? Only when the report is ready? Or some other time perhaps? 
+
+Thanks sers
+
+
+[02/20/2025 20:45] deeney3866
+Only when the result is published.
+
+
+[02/21/2025 08:29] onlycharttrade_46838
+What's the progress ?
+
+
+[02/21/2025 09:17] kyosi2963
+Sponsor Review, no progress yet 😄
+
+
+[02/21/2025 09:18] kyosi2963
+I give it 1 month more at least
+
+
+[02/21/2025 10:58] deeney3866
+Like! Maybe after 2months results will be out.
+
+
+[02/21/2025 19:22] kyosi2963
+Judging in c4 is so slow sometimes, we have to adapt :/
+
+
+[02/22/2025 00:31] owanemi
+
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/me-waiting-for-my-friends-to-get-online-E16A2.mov
+
+
+[02/23/2025 06:28] george786.
+Man , it'ss not moving
+
+
+[02/23/2025 09:19] onlycharttrade_46838
+Aren't they taking too much time? There's no response, nor any announcement from the 'next-generation-jan' team. What's going on?
+
+
+[02/23/2025 13:42] kyosi2963
+@Jay | C4 Could u share what's happening with this contest, please 🙏
+
+
+[02/24/2025 13:12] thebrittfactor
+The sponsors are reviewing the findings. Please keep in mind there were a fair amount of submissions to review. We appreciate everyone's patience!
+
+{Reactions}
+🧪 👍 (2) 
+
+[02/24/2025 13:50] lhoussaineph2001
+@thebrittfactor | C4 thank you
+
+{Reactions}
+hi5 
+
+[02/24/2025 19:19] onlycharttrade_46838
+Thank you
+
+
+[02/26/2025 09:29] owanemi
+liquid ron and next gen started almost same time and results are out🥲
+
+
+[02/26/2025 09:29] owanemi
+seems next gen had a lot of valid findings
+
+
+[02/26/2025 11:17] 0xrochimaru
+Next gen is still in sponsor review phase. I think the contest will wrap up quickly once we more to judging phase
+
+{Reactions}
+👍 
+
+[02/27/2025 05:28] george786.
+This is very much incompetent i must say.
+
+{Reactions}
+❓ (2) 
+
+[02/27/2025 09:24] mmoyse777
+Why make such statements if you don't even have the full context?
+
+{Reactions}
+💜 
+
+[02/27/2025 09:25] mmoyse777
+I'd also like faster loop but that is not always possible, yet why would the judges be incompetent 😄 Come on
+
+
+[02/27/2025 16:44] kyosi2963
+Hopefully the judging phase starts soon 🥺
+
+
+[02/27/2025 18:32] onlycharttrade_46838
+https://tenor.com/view/mr-bean-mrbean-bean-mr-bean-holiday-mr-bean-holiday-movie-gif-3228235746377647455
+
+{Embed}
+https://tenor.com/view/mr-bean-mrbean-bean-mr-bean-holiday-mr-bean-holiday-movie-gif-3228235746377647455
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/mr-bean-mrbean-9624D.png
+
+{Reactions}
+💀 
+
+[02/28/2025 14:02] lhoussaineph2001
+Any updates 😵‍💫
+
+
+[02/28/2025 17:45] insurgence_
+the judging phase has started :chefskiss:
+
+{Reactions}
+🥶 👍 (3) 
+
+[03/01/2025 09:42] lhoussaineph2001
+How that well take as well?
+
+{Reactions}
+😟 
+
+[03/01/2025 11:21] jjs0660
+Must’ve been a LOT of submissions
+
+
+[03/03/2025 13:20] 0xiehnnkta
+Should we expect for another 15-20 days for final results, excluding the published report
+
+
+[03/03/2025 18:28] onlycharttrade_46838
+The team doesn't have enough time to provide any updates.☹️
+
+
+[03/04/2025 11:29] cloudellie
+It's not that we wouldn't love to provide updates, just that it's very difficult to predict timelines on judging (and triage/sponsor review too). Even the number of submissions is not a perfect predictor. The complexity of the code, volume of findings, nuance of discussions between judge and sponsor, all contribute to variability with timelines. 
+
+And we don't want to disappoint wardens by promising a date, then e.g. having some new information reopen discussions, etc. 
+
+The good news: this will get much more transparent to you all once we ship the change mentioned [here](https://discord.com/channels/810916927919620096/810929015509483554/1346114280075952228).
+
+{Reactions}
+❤️ (9) 
+
+[03/06/2025 09:55] kyosi2963
+Are we close to PJQA ? 🥺
+
+{Reactions}
+❌ (6) 
+
+[03/06/2025 16:17] lhoussaineph2001
+What is this mean?
+
+
+[03/08/2025 14:49] sherlockvarm
+Any update?
+
+
+[03/08/2025 17:01] pindarew
+This is crazy guys..
+
+
+[03/08/2025 21:11] kyosi2963
+Beginning of April is my guess
+
+
+[03/08/2025 22:37] onlycharttrade_46838
+whats going on team ?
+
+
+[03/09/2025 18:05] owanemi
+bruh
+
+
+[03/10/2025 14:26] 0xrochimaru
+https://tenor.com/view/grandma-84years-waiting-titanic-rose-dewitt-bukater-gif-5132563
+
+{Embed}
+https://tenor.com/view/grandma-84years-waiting-titanic-rose-dewitt-bukater-gif-5132563
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/grandma-84years-C69BB.png
+
+{Reactions}
+😂 (6) 
+
+[03/10/2025 15:01] onlycharttrade_46838
+https://tenor.com/view/gjirlfriend-gif-14457952604098199169
+
+{Embed}
+https://tenor.com/view/gjirlfriend-gif-14457952604098199169
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/gjirlfriend-729B5.png
+
+{Reactions}
+😂 (3) 
+
+[03/10/2025 15:05] sherlockvarm
+This is very slow...
+
+{Reactions}
+👍 
+
+[03/10/2025 21:10] thebrittfactor
+Keep in mind there were a large amount of submissions. The judge is working through their review locally - we should have some movement this week. 🙏
+
+{Reactions}
+👍 (5) 
+
+[03/10/2025 22:39] onlycharttrade_46838
+👍
+
+
+[03/12/2025 09:14] sherlockvarm
+I think it would be a great feature in C4 to show all the submissions after closing, just like sherlock, codehawks and cantina.
+
+
+[03/12/2025 11:36] cloudellie
+https://discord.com/channels/810916927919620096/810929015509483554/1346114280075952228
+
+
+[03/12/2025 12:37] sherlockvarm
+why this is restricted to SR only instead of all waderns?
+
+
+[03/12/2025 12:38] cloudellie
+I think maybe you missed the second point?
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/image-817AC.png
+
+{Reactions}
+🚀 (4) 
+
+[03/12/2025 12:41] sherlockvarm
+my bad 🙌
+
+
+[03/12/2025 12:42] sherlockvarm
+what is the expected timeline for this feature
+
+
+[03/12/2025 12:45] cloudellie
+We'll certainly announce it once we have a firm timeline.
+
+
+[03/12/2025 13:14] sherlockvarm
+cool
+
+
+[03/12/2025 13:53] mmoyse777
+@CloudEllie any update on the judging phase?
+
+
+[03/12/2025 14:17] thebrittfactor
+The judge is working locally and is also in discussion with the sponsors. We should have an update later this week.
+
+{Reactions}
+🫡 (6) 
+
+[03/14/2025 09:18] kyosi2963
+Why the judging is taking that long on this contest, there are some misalignments between the sponsors and the judge ?
+
+
+[03/14/2025 16:15] george786.
+1 month 7 days for a 500 nSloc contest?
+
+
+[03/14/2025 16:47] kyosi2963
+Seems it's only for this contest, because even contests that finished after this one are already done/PJQA :/
+
+
+[03/14/2025 17:34] owanemi
+bruhhh
+
+
+[03/15/2025 12:22] deeney3866
+Omox1000000000000
+
+{Reactions}
+😂 (3) 
+
+[03/15/2025 19:28] sabanaku77
+
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/angry-angry-cat-EA584.mov
+
+{Reactions}
+🤣 (3) 
+
+[03/15/2025 23:59] owanemi
+omo person don tire😂😂😭
+
+
+[03/16/2025 01:13] willycode20
+@Nemi That kind thing 😂
+
+
+[03/16/2025 04:42] deeney3866
+That kind thing. 
+We just have to trust the process nhi.
+
+
+[03/16/2025 19:30] teoslaf1
+
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - next-generation-jan [1334274897941364837].txt_Files/Screenshot_2025-03-16_at_20.30.13-4E859.png
+
+{Reactions}
+🔥 (6) 
+
+[03/16/2025 20:23] deeney3866
+Who has the SR role 🤔
+
+
+[03/17/2025 08:31] kuwatakushi
+🥹
+
+
+[03/17/2025 09:28] devpelz
+feels as if 90% of auditors here lost their SR role😅
+
+{Reactions}
+👍 
+
+[03/17/2025 10:08] mmoyse777
+is there a way to participate in that PJQA phase without having that role? Seems like everything is exclusive to SR roleholders
+
+{Reactions}
+❌ 
+
+[03/17/2025 10:09] mmoyse777
+I am interested to at least see which issues have made the initial cut
+
+
+[03/17/2025 10:16] _killua69_
+Broo😂
+
+{Reactions}
+😂 (3) 
+
+[03/17/2025 10:19] cloudellie
+We're planning to provide earlier visibility on submissions for all wardens (not just SR) soon: https://discord.com/channels/810916927919620096/810929015509483554/1346114280075952228. But PJQA will remain an SR privilege.
+
+
+[03/17/2025 10:19] kyosi2963
+Are escalations open during PJQA phase ?
+
+
+[03/17/2025 10:21] cloudellie
+Post-judging QA is what we call the process. Other platforms call it "escalations." There are different rules and processes on different platforms, but the overall concept is the same, i.e. to ensure the judging is thoroughly reviewed.
+
+{Reactions}
+👍 
+
+[03/17/2025 10:21] kyosi2963
+Oh, got it, thanks , i thought that's something different 😄
+
+{Reactions}
+hi5 
+
+[03/17/2025 10:30] kyosi2963
+But again only people with SR role are able to escalate ? 😕
+
+
+[03/17/2025 10:31] cloudellie
+Correct. https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens
+
+{Embed}
+https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens
+Security Researcher role (formerly +backstage wardens) | Code4rena
+
+
+[03/17/2025 10:31] kyosi2963
+That's sad 😭
+
+
+[03/17/2025 12:24] owanemi
+after this results are released right? or escalations before final results
+
+
+[03/17/2025 13:12] deeney3866
+Yeah, I think so.
+
+
+[03/17/2025 18:41] deeney3866
+How many high and med?
+
+{Reactions}
+👀 (2) 
+
+[03/18/2025 02:21] t0r4n4d0
+Is the first phase of judging done?
+
+
+[03/18/2025 11:28] george786.
+Yes, seems so.
+
+
+[03/18/2025 13:03] t0r4n4d0
+I have submitted some issues but i couldn't see anything on the finding like accepted or rejected or any comments.
+
+
+[03/18/2025 13:09] deeney3866
+If you don't have SR role can't see all that.
+
+
+[03/18/2025 13:15] t0r4n4d0
+Ok
+
+
+[03/18/2025 16:13] josh4324
+Seems i may be losing my SR role soon....lol
+
+
+[03/18/2025 16:48] deeney3866
+How many H am M.
+
+
+[03/18/2025 17:13] josh4324
+Not much
+
+{Reactions}
+👍 (2) 
+
+[03/18/2025 17:15] pindarew
+When we will be able to see the findings?
+
+
+[03/18/2025 17:28] onlycharttrade_46838
+I have submitted some issues so how to know that its accept or reject ?
+
+
+[03/18/2025 17:28] deeney3866
+You will know when the results comes out.
+
+
+[03/18/2025 17:29] deeney3866
+Or if you have someone with SR role  the person can help you check.
+
+
+[03/18/2025 22:48] onlycharttrade_46838
+@Josh4324 can you check my finding , its approvede or not ?
+
+
+[03/18/2025 22:54] lhoussaineph2001
+Where you see the findings
+
+
+[03/18/2025 22:54] lhoussaineph2001
+I check it's only Norma page
+
+
+[03/19/2025 18:44] thebrittfactor
+🤑 🎉  Awards for **Next Generation**:
+
+$7,171.24 USDC » @valkvalue
+$5,719.42 USDC » @KupiaSec
+$487.39 USDC » @JCN
+$342.86 USDC » @edger
+$337.90 USDC » @patitonar
+$267.29 USDC » @chaosSR
+$263.74 USDC » @djshanwang
+$263.74 USDC » @0xAadi
+$263.74 USDC » @Shahid_10_
+$263.74 USDC » @0xgh0stcybers3c
+$263.74 USDC » @maxel
+$263.74 USDC » @Daniel526
+$263.74 USDC » @deeney.eth
+$227.20 USDC » @Lamsya
+$227.20 USDC » @mih0wk
+$227.20 USDC » SBSecurity (@blckhv, @Slavcheww)
+$227.20 USDC » @santipu_
+$227.20 USDC » @Abysser
+$227.20 USDC » @bshyuunn
+$227.20 USDC » @0k567
+$221.05 USDC » @Maroutis
+$151.99 USDC » @LeoGold
+$6.32 USDC » @infect3d
+$5.37 USDC » @oxait
+$4.74 USDC » @Pelz
+$3.65 USDC » @Jum_cee
+$3.65 USDC » @safie
+$3.65 USDC » @i3arba
+$3.65 USDC » @0xGondar
+$3.65 USDC » @Sabanaku77
+$3.65 USDC » @Kasheeda
+$3.65 USDC » @s4bot3ur
+$3.65 USDC » @HardlyDifficult
+$3.65 USDC » @web3km
+$3.65 USDC » @agadzhalov
+$3.65 USDC » @unknown-BL4NK
+$3.65 USDC » @aua_oo7
+$3.65 USDC » @Prestige
+$3.65 USDC » @Eva
+$3.65 USDC » @Pocas
+$3.65 USDC » @skypper
+
+{Reactions}
+❤️ (6) 🇨🇴 
+
+[03/19/2025 18:44] thebrittfactor
+$3.65 USDC » @Louis 
+$3.65 USDC » @demon
+$3.65 USDC » @X0sauce 
+$3.65 USDC » @farismaulana
+$3.65 USDC » @greg
+$3.65 USDC » @Wias Liaw
+$3.65 USDC » @firmanregar
+$3.55 USDC » @Nemi
+$3.55 USDC » @VanGrim | Midgar 
+$3.55 USDC » @d3e4 
+$3.55 USDC » @0x0107
+$3.55 USDC » @francoHacker
+$3.55 USDC » @Bryan_Conquer
+$3.55 USDC » @Lhoussaineph2001
+$3.55 USDC » @pindarev
+$3.55 USDC » @KodoSec
+$3.55 USDC » @Hueber
+$3.55 USDC » @msk0333
+$3.55 USDC » @Oxchsyston
+$3.55 USDC » @air_0x 
+$3.55 USDC » @Kaysoft
+$3.55 USDC » @Bauchibred
+$3.55 USDC » @0xrochimaru
+$2.73 USDC » @sudo su
+$2.67 USDC » @SherlockVARM
+$1.78 USDC » @tourist
+
+🏁 Findings summary
+--------------------------------------
+1 High risk findings
+3 Med risk findings
+817 wardens participated
+
+Top Hunter: MrValioBg and KupiaSec
+Top Gatherer: Abysser, hyuunn, JCN, komane007, Lamsy, ok567, santipu_ and SBSecurity
+Top QA report: patitonar
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+⚠️ Awardees, be sure to [complete your tax reporting info](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) if you haven't already. This must be completed within 30 days (i.e. before Friday, 18 April 2025) to receive your award distribution for this audit.
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings are made public to check on your submissions.*
+
+{Reactions}
+🔥 (8) 😆 (2) 
+
+[03/19/2025 18:58] owanemi
+my first payout on c4 not much but very happy. 🔥
+
+{Reactions}
+🎉 (8) ❤️ (3) 
+
+[03/19/2025 19:00] pindarew
+Same, I expected better results
+
+{Reactions}
+🔥 
+
+[03/19/2025 19:01] patitonar
+Position 5 and Top QA report 🥹 super happy with the result!
+
+{Reactions}
+👍 (3) 🔥 (2) 🚀 
+
+[03/19/2025 19:39] cloudellie
+@valkvalue congrats on taking 1st place!
+
+{Reactions}
+➕ (3) 
+
+[03/19/2025 19:41] valkvalue
+Thank you!
+
+{Reactions}
+hi5 (5) 💜 
+
+[03/19/2025 19:59] kartoonjoy
+Congratulations!!
+
+
+[03/19/2025 20:55] walodja1987
+Hm. Hard to believe that none of my submitted issues was accepted. 2 were definitely valid. Waiting for the final report.
+
+{Reactions}
+👍 
+
+[03/20/2025 04:07] bytes032
+congrats @valkvalue 
+
+this is the first of many
+
+{Reactions}
+➕ 🤝 
+
+[03/20/2025 09:02] valkvalue
+Thank you, that’s the plan
+
+
+[03/20/2025 11:54] jjs0660
+Hey this is my first contest on the platform. Is the only way to see if my submissions were valid is if im on the leaderboard? When I go to the findings I submitted I can't see if it was rejected or accepted or anything like that...
+
+
+[03/20/2025 12:37] cloudellie
+this is currently unavailable but we expect to have it resolved next week 🙏
+
+{Reactions}
+thankyou (2) 
+
+[03/20/2025 12:39] caesar581
+My threshold is 0%, I don't know if this is why all my findings are not seen by the judge or reviewed.
+
+
+[03/20/2025 12:40] caesar581
+@CloudEllie
+
+
+[03/20/2025 12:42] caesar581
+This is so painful, even after all the sleepless night and effort put into this only for one to face this😭
+
+{Reactions}
+empathy (3) 
+
+[03/20/2025 12:42] cloudellie
+Judges review all submissions, regardless of wardens' signal score.
+
+
+[03/20/2025 12:43] caesar581
+But my profile name is not reflected on the submission board....😫
+
+
+[03/20/2025 12:48] cloudellie
+That just means that your submissions were not judged to be satisfactory. You would need the SR role to view all submissions to the audit.
+
+
+[03/20/2025 12:48] cloudellie
+I know it's currently very difficult for wardens to see how the process works. We are expecting to ship some big improvements next week that will allow you to observe the validation, sponsor review, and judging processes, and see the evaluations and comments on your submissions. 
+
+We beg your patience as we put the final touches on these features -- we're as eager as you are to address these concerns and ensure that hardworking wardens have access to this information.
+
+
+[03/20/2025 12:54] caesar581
+At least I still didn't get why my name is not among all the warden that actually participated and submitted some e findings. I feel out of place. 🤦
+
+{Reactions}
+empathy (2) 
+
+[03/20/2025 12:59] cloudellie
+I think if you ask the community, you will find that many wardens who now appear in the award lists started out not seeing their names listed. Keep going!
+
+{Reactions}
+🫡 (4) 
+
+[03/20/2025 14:04] mmoyse777
+Question, now that the judging is over, were there practically valid issues invalidated due to mistakes in the project documentation? Is this a standard practice or rather a precedent?
+
+
+[03/20/2025 15:27] maxel9890
+Hey, super happy with the result! 🔥 , but also surprised. Submitted 3 issues, got only 1 accepted, still higher on LB than guys with more issues. First 2 places are 1 issue also with very high payout. Is that only because of duplicates number, or some other reason aswell?
+
+{Reactions}
+👆 
+
+[03/20/2025 15:41] thebrittfactor
+It's up to the judge to determine validity/severity of documentation errors. I suggest waiting until the report is published to review the findings.
+
+
+[03/20/2025 15:44] thebrittfactor
+Correct, there were a fair amount of duplicates, which lessened that payout for a couple HM issues. More contributing factors on our award calculation can be reviewed [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#awarding-process).
+
+{Reactions}
+👍 
+
+[03/20/2025 18:46] mmoyse777
+it's the only option I have available. but after the report's published, is there something that can even be done?
+
+
+[03/20/2025 19:03] thebrittfactor
+If you don't have the SR role, [judge decisions are final](https://docs.code4rena.com/awarding/fairness-and-validity#if-you-disagree-with-a-judges-decision).
+
+
+[03/20/2025 19:04] mmoyse777
+alright, thank you for the confirmation 😦
+
+{Reactions}
+empathy 🙏 
+
+[03/27/2025 13:33] marioyordanov
+why report is taking so long to be published? arent the best findings already filtered out when the results are published?
+
+
+[03/27/2025 14:20] thebrittfactor
+The sponsors are reviewing the report. Once we receive their approval to publish, we'll be sure to get it on the site asap 🙂
+
+
+[04/01/2025 15:32] george786.
+@thebrittfactor | C4 I have a finding that hasn't been acknowledged...(Can I dm you regarding this)?
+
+{Reactions}
+🧵 
+
+[04/08/2025 11:47] vangrim
+Any ETA for the report?
+
+
+[04/16/2025 20:02] C4
+ℹ️ This channel is pending archive.   As a result, any private threads will be permanently deleted 04/25/2025 18:24. Please make sure to grab anything you might need before then.
+
+
+[04/21/2025 23:28] mptgits_15062
+What is happening with the report? This is wild
+
+
+[04/24/2025 20:02] C4
+ℹ️ Reminder: this channel will be deleted after 24 hours.
+
+
+==============================================================
+Exported 244 message(s)
+==============================================================
